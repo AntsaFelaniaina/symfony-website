@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+
+<h1>Hello {{d}}!</h1>
+
+<h1>Hello {{user.name}}!</h1>
+
+<ul>
+{% for data in a %}
+    <li>{{data}}</li>
+{% endfor %}
+</ul>
+{% endblock %}
